@@ -6,7 +6,7 @@ I’m now pivoting into **computational biology**, combining my clinical foundat
 
 💻 I’m passionate about bioinformatics, multi-omics data analysis, and using Python to uncover patterns in biological datasets. My GitHub is a growing collection of self-driven projects, scripts, and pipelines — from sequence alignment tools to omics integration systems.
 
-📈 My skillset includes:
+## 📈 My skillset includes:
 
 🧬 Biopython, Pandas, BLAST, NCBIWWW, SeqIO
 📊 Statistical analysis: ANOVA, Shapiro-Wilk, feature selection
@@ -14,11 +14,11 @@ I’m now pivoting into **computational biology**, combining my clinical foundat
 🧪 NHS lab experience with FFPE block preparation, reagent handling & UKAS-compliant workflows
 🌱 Currently levelling up through personal projects, MSc Bioinformatics preparation, and continued NHS experience — aiming to specialise in clinical bioinformatics and contribute to precision medicine.
 
-📚 Projects highlight:
+## 📚 Projects highlight:
 
-COVID-19 Sequence Tracker
-Gene Identification Tool
-Multi-Omics Integration Pipeline
+- COVID-19 Sequence Tracker
+- Gene Identification Tool
+- Multi-Omics Integration Pipeline
 
 ## 💬 Let's Connect
 
