@@ -8,11 +8,11 @@ I’m now pivoting into **computational biology**, combining my clinical foundat
 
 ## 📈 My skillset includes:
 
-🧬 Biopython, Pandas, BLAST, NCBIWWW, SeqIO
-📊 Statistical analysis: ANOVA, Shapiro-Wilk, feature selection
-🧠 Real-world project experience in transcriptomics, genomics & viral sequence tracking
-🧪 NHS lab experience with FFPE block preparation, reagent handling & UKAS-compliant workflows
-🌱 Currently levelling up through personal projects, MSc Bioinformatics preparation, and continued NHS experience — aiming to specialise in clinical bioinformatics and contribute to precision medicine.
+- 🧬 Biopython, Pandas, BLAST, NCBIWWW, SeqIO
+- 📊 Statistical analysis: ANOVA, Shapiro-Wilk, feature selection
+- 🧠 Real-world project experience in transcriptomics, genomics & viral sequence tracking
+- 🧪 NHS lab experience with FFPE block preparation, reagent handling & UKAS-compliant workflows
+- 🌱 Currently levelling up through personal projects, MSc Bioinformatics preparation, and continued NHS experience — aiming to specialise in clinical bioinformatics and contribute to precision medicine.
 
 ## 📚 Projects highlight:
 
