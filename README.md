@@ -24,4 +24,4 @@ I’m now pivoting into **computational biology**, combining my clinical foundat
 
 📫 **Email:** c.t.obi-osuala@outlook.com  
 🔗 **LinkedIn:** [linkedin.com/in/ctobi](https://www.linkedin.com/in/ctobi)  
-🌐 **GitHub:** You're here already 👀 
+
