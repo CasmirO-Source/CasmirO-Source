@@ -1,8 +1,8 @@
 ## Hi there 👋
 
-I’m Casmir, a Biomedical Science graduate (2:1, IBMS-accredited) currently working at NHS John Radcliffe Hospital in Oxford, contributing to histopathology diagnostics and tissue processing.
+I’m Casmir, a Biomedical Science graduate (2:1, IBMS-accredited) with wet-lab experience working at NHS John Radcliffe Hospital in Oxford, contributing to histopathology diagnostics and tissue processing. Currently I am studying a MsC in Bioinformatics.
 
-I’m now pivoting into **computational biology**, combining my clinical foundation with a growing skillset in **bioinformatics, Python, and data analysis** — with the goal of joining the NHS STP Bioinformatics programme or a research-intensive MSc in 2025
+I’m now pivoting into **computational biology**, combining my clinical foundation with a growing skillset in **bioinformatics, Python, data analysis, machine learning/AI, R studio and Linux command line** 
 
 💻 I’m passionate about bioinformatics, multi-omics data analysis, and using Python to uncover patterns in biological datasets. My GitHub is a growing collection of self-driven projects, scripts, and pipelines — from sequence alignment tools to omics integration systems.
 
