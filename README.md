@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-I’m Casmir, a Biomedical Science graduate (2:1, IBMS-accredited) with wet-lab experience working at NHS John Radcliffe Hospital in Oxford, contributing to histopathology diagnostics and tissue processing. Currently I am studying a MsC in Bioinformatics.
+I’m Casmir, a Biomedical Science graduate (2:1, IBMS-accredited) with wet-lab experience working at NHS John Radcliffe Hospital in Oxford, contributing to histopathology diagnostics and tissue processing. Currently I am studying a MsC in Bioinformatics at the University of Birmingham.
 
 I’m now pivoting into **computational biology**, combining my clinical foundation with a growing skillset in **bioinformatics, Python, data analysis, machine learning/AI, R studio and Linux command line** 
 
