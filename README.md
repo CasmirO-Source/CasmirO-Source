@@ -1,4 +1,4 @@
-#👋 Hi, I'm Casmir Obi-Osuala
+👋 Hi, I'm Casmir Obi-Osuala
 
 🎓 MSc Bioinformatics Student | 💻 Python • R • Linux | 🤖 Data Science & Machine Learning Enthusiast
 
