@@ -1,10 +1,26 @@
-## Hi there 👋
+##👋 Hi, I'm Casmir Obi-Osuala
 
-I’m Casmir, a Biomedical Science graduate (2:1, IBMS-accredited) with wet-lab experience working at NHS John Radcliffe Hospital in Oxford, contributing to histopathology diagnostics and tissue processing. Currently I am studying a MsC in Bioinformatics at the University of Birmingham.
+🎓 MSc Bioinformatics Student | 💻 Python • R • Linux | 🤖 Data Science & Machine Learning Enthusiast
 
-I am now combining my clinical foundation with a growing skillset in **bioinformatics, Python, data analysis, machine learning/AI, R studio and Linux command line** 
+---
 
-💻 I am passionate about bioinformatics, multi-omics data analysis, and using Python to uncover patterns in biological datasets. My GitHub is a growing collection of self-driven projects, scripts, and pipelines — from sequence alignment tools to omics integration systems.
+## 🧠 About Me
+I’m currently pursuing my **MSc in Bioinformatics**, where I’m building a strong foundation in **computational biology, data science, and AI-driven healthcare**.  
+My focus is on applying **Python, R, and machine learning** to analyse biological data and uncover patterns that support better understanding of disease mechanisms and treatment discovery.
+
+Alongside my studies, I’m completing the **AWS Cloud Practictioner Essesntials ** to deepend my knowledge on AWS services (like S3, SageMaker, and Lambda) for data storage, processing, and machine learning workflows, while understanding cost, security, and scalability considerations.
+
+I am open to explore a range of opportunities in **biotech, data science, data engineering
+
+---
+
+## 🔬 Current Focus Areas
+- **Python & R programming** for biological data analysis  
+- **Statistical Machine Learning** for omics and healthcare datasets  
+- **Linux & Bash scripting** for reproducible bioinformatics workflows  
+- **Data visualization** using `matplotlib`, `seaborn`, and `ggplot2`  
+- **Multi-omics integration** (genomics, transcriptomics, proteomics)  
+- **AI for healthcare** – explainable models and real-world data interpretation. Explainable AI
 
 ## 📈 My skillset includes:
 
