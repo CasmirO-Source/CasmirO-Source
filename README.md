@@ -8,7 +8,7 @@
 I’m currently pursuing my **MSc in Bioinformatics**, where I’m building a strong foundation in **computational biology, data science, and AI-driven healthcare**.  
 My focus is on applying **Python, R, and machine learning** to analyse biological data and uncover patterns that support better understanding of disease mechanisms and treatment discovery.
 
-Alongside my studies, I’m completing the **AWS Cloud Practictioner Essesntials ** to deepend my knowledge on AWS services (like S3, SageMaker, and Lambda) for data storage, processing, and machine learning workflows, while understanding cost, security, and scalability considerations.
+Alongside my studies, I’m completing the **AWS Cloud Practictioner Essesntials ** to deepen my knowledge on AWS services (like S3, SageMaker, and Lambda) for data storage, processing, and machine learning workflows, while understanding cost, security, and scalability considerations.
 
 I am open to explore a range of opportunities in **biotech, data science, data engineering
 
