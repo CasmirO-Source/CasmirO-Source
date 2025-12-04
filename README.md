@@ -1,6 +1,6 @@
 Hi, I'm Casmir Obi-Osuala
 
-MSc Bioinformatics Student | 💻 Python • R • Linux | 🤖 Data Science & Machine Learning Enthusiast
+MSc Bioinformatics Student | 💻 Python • R • Linux/Bash | 🤖 Data Science & Machine Learning Enthusiast
 
 ---
 
