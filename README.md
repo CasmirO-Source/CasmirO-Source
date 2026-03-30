@@ -35,6 +35,7 @@ I am open to explore a range of opportunities in **biotech, data science, data e
 - COVID-19 Sequence Tracker
 - Gene Identification Tool
 - Multi-Omics Integration Pipeline
+- Spikes App (Part of Hackathon Team, Forked from @MiguelAlburo)
 
 ## Let's Connect
 
