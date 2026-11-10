@@ -1,30 +1,44 @@
 # Hi, I'm Cas
 
-I'm a data engineer with an MSc in Bioinformatics (Distinction, University of Birmingham). Most of what I do is taking data from messy sources and turning it into clean, tested tables that people can actually trust. I'm most interested in doing that with health data.
+I'm a data engineer based in Birmingham. I build warehouse loads, data quality tests and API integrations, and the code I've written runs in production. I also have an MSc in Bioinformatics (Distinction), and I'd like to bring both together in health data.
 
-I'm currently open to data engineering roles.
+I'm open to data engineering roles and available immediately.
 
-## What I've worked on
+## Junior Data Engineer, Genting Casinos UK
 
-**Data engineering.** I've worked as a junior data engineer in a regulated environment. Day to day that meant:
+August to November 2026, Data Warehouse and Integration team. I worked on a PostgreSQL data warehouse for a regulated casino and hotel business, alongside senior engineers and an external solutions architect.
 
-- Building Pentaho jobs to load files from SFTP and spreadsheets into a PostgreSQL warehouse
-- Writing SQL test scripts to check new tables against the data dictionary before anything went live
-- Building summary tables to feed marketing analytics
-- Setting up API access to SharePoint and testing it in Postman before it went through change approval
+**In production**
 
-**MSc dissertation.** I looked at whether eligibility for targeted cancer drugs differs by ethnicity, using over 2,000 patients from The Cancer Genome Atlas (TCGA). A lot of it was data engineering. The clinical data came as 10,365 event-level records, which I collapsed to one row per patient. I parsed almost 2,000 mutation files on a high-performance computing cluster, then checked my outputs against published figures before trusting any result.
+- **Rebuilt a third-party training records feed end to end.** Worked out which datasets were needed from a mapping sheet, wrote the PostgreSQL DDL for new dimension and fact tables, and built Pentaho transformations to load scheduled CSV extracts from SFTP. Once the new load was live, I decommissioned the legacy job and raised the network change to cut the old SFTP connection.
+- **Prepared a monthly production change to the customer app.** Each month I wrote the change request, the SQL script (from Git templates) and the runbook, raised it through the Change Advisory Board, and coordinated downtime with the games systems team.
 
-That checking paid off. One gene variant was coming back at 0% across the whole dataset because the mutation files numbered that gene differently to how I was searching for it. Fixing it recovered 53 patients who carried the variant and had been silently dropped.
+**Built and tested**
 
-**NHS lab work.** Before the MSc I was a lab assistant in NHS histopathology at the John Radcliffe Hospital, so I've seen first hand where clinical data comes from and how it gets recorded.
+- **Automated data quality testing.** Built a Pentaho transformation that reads the warehouse data dictionary and generates a SQL test for every column, covering 121 testable columns on a customer profile table of over 2 million rows. It was designed to run daily with results reported in Tableau.
+- **Set up API access to SharePoint for automated file ingestion.** Configured access through an Azure app registration, then tested Microsoft Graph and SharePoint REST calls in Postman to confirm files could be listed and downloaded before taking it to the Change Advisory Board.
+- **Consolidated spreadsheet data from 32 sites.** Designed the table and built a Pentaho job to load each site's spreadsheet into one table, mapped site names to warehouse IDs, and worked with the business owner to standardise naming.
+- **Designed new marketing variables.** Wrote the SQL for a summary table (one row per customer per game type, with days since last played) so the marketing team could build targeted customer groups.
+- **Designed a load template that survives supplier changes.** Used Pentaho metadata injection so columns match by header name rather than position, meaning a load doesn't break when a supplier reorders columns.
+- **Microsoft Fabric migration.** Took part in migration planning, including moving flat-file loads from Pentaho into Fabric.
+
+Company code stays with the company, so none of it is on here. The projects below are my own.
 
 ## Tools
 
-- **Data:** SQL, PostgreSQL, Trino, Pentaho, SSIS
+- **SQL:** PostgreSQL (CTEs, window functions, DDL, query tuning)
+- **ETL:** Pentaho Data Integration (transformations, jobs, metadata injection), SFTP file feeds
+- **Cloud and APIs:** Azure app registrations, Microsoft Graph, SharePoint REST, Postman, Microsoft Fabric
 - **Languages:** Python (pandas, NumPy, scikit-learn, TensorFlow), R, Bash
-- **Other:** Git, Postman, SLURM (job scheduling on high-performance computing clusters)
-- **Studying for:** Microsoft Fabric Data Engineer certification
+- **Tools:** DBeaver, Tableau, Git, SLURM (job scheduling on high-performance computing clusters)
+- **Ways of working:** change control through a Change Advisory Board, service desk tickets, runbooks, data dictionaries
+- **Certification:** Microsoft Fabric Data Engineer Associate, exam booked December 2026
+
+## Before data engineering
+
+**MSc Bioinformatics, University of Birmingham (Distinction).** For my dissertation I built a Python pipeline that turned almost 2,000 cancer mutation files into one table per patient, then checked the output against published figures. That checking caught a gene variant coming back at 0% because the files numbered the gene differently to how I was searching for it. Fixing it recovered 53 patients who had been silently dropped.
+
+**NHS histopathology.** I worked as a lab assistant at the John Radcliffe Hospital, where accurate records and traceability matter for patient safety. It's where I learnt to take data quality seriously.
 
 ## Projects
 
