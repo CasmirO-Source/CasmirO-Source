@@ -1,4 +1,4 @@
-# Hi, I'm Cas
+# Hi, I'm Casmir
 
 I'm a data engineer based in Birmingham. I build warehouse loads, API integrations and data quality tests, and my work runs in production. I also have an MSc in Bioinformatics (Distinction), and I'd like to bring both together in health data.
 
