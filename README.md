@@ -1,6 +1,6 @@
 # Hi, I'm Cas
 
-I'm a data engineer based in Birmingham. I build warehouse loads, data quality tests and API integrations, and the code I've written runs in production. I also have an MSc in Bioinformatics (Distinction), and I'd like to bring both together in health data.
+I'm a data engineer based in Birmingham. I build warehouse loads, API integrations and data quality tests, and my work runs in production. I also have an MSc in Bioinformatics (Distinction), and I'd like to bring both together in health data.
 
 I'm open to data engineering roles and available immediately.
 
@@ -8,18 +8,20 @@ I'm open to data engineering roles and available immediately.
 
 August to November 2026, Data Warehouse and Integration team. I worked on a PostgreSQL data warehouse for a regulated casino and hotel business, alongside senior engineers and an external solutions architect.
 
-**In production**
+**Built and shipped to production**
 
-- **Rebuilt a third-party training records feed end to end.** Worked out which datasets were needed from a mapping sheet, wrote the PostgreSQL DDL for new dimension and fact tables, and built Pentaho transformations to load scheduled CSV extracts from SFTP. Once the new load was live, I decommissioned the legacy job and raised the network change to cut the old SFTP connection.
-- **Prepared a monthly production change to the customer app.** Each month I wrote the change request, the SQL script (from Git templates) and the runbook, raised it through the Change Advisory Board, and coordinated downtime with the games systems team.
+- **Rebuilt a third-party training records feed end to end.** Worked out which datasets were needed from a mapping sheet, wrote the PostgreSQL DDL for new dimension and fact tables, and built Pentaho transformations to load scheduled CSV extracts from SFTP. My load replaced the old one, and I then decommissioned the legacy job and raised the network change to cut the old SFTP connection.
+- **Built automated file ingestion from SharePoint.** Set up API access through an Azure app registration and used Postman to test Microsoft Graph and SharePoint REST calls, including getting bearer tokens for authentication. Then built the Pentaho jobs and transformations that pull the files through the API and load them, now live.
+- **Consolidated spreadsheet data from 32 sites.** Designed the table and built the Pentaho job that loads each site's spreadsheet from SharePoint into one table, mapped site names to warehouse IDs, and worked with the business owner to standardise naming.
+- **Built a load template that survives supplier changes.** Used Pentaho metadata injection so columns match by header name rather than position, meaning a load doesn't break when a supplier reorders columns. Pushed to production.
+- **Delivered new marketing variables.** Wrote the SQL for a summary table (one row per customer per game type, with days since last played) that the marketing team now use to build targeted customer groups.
+- **Prepared a monthly production change to the customer app.** Each month I wrote the change request, the SQL script (from Git templates) and the runbook, and coordinated downtime with the games systems team.
 
-**Built and tested**
+**Running it day to day**
 
-- **Automated data quality testing.** Built a Pentaho transformation that reads the warehouse data dictionary and generates a SQL test for every column, covering 121 testable columns on a customer profile table of over 2 million rows. It was designed to run daily with results reported in Tableau.
-- **Set up API access to SharePoint for automated file ingestion.** Configured access through an Azure app registration, then tested Microsoft Graph and SharePoint REST calls in Postman to confirm files could be listed and downloaded before taking it to the Change Advisory Board.
-- **Consolidated spreadsheet data from 32 sites.** Designed the table and built a Pentaho job to load each site's spreadsheet into one table, mapped site names to warehouse IDs, and worked with the business owner to standardise naming.
-- **Designed new marketing variables.** Wrote the SQL for a summary table (one row per customer per game type, with days since last played) so the marketing team could build targeted customer groups.
-- **Designed a load template that survives supplier changes.** Used Pentaho metadata injection so columns match by header name rather than position, meaning a load doesn't break when a supplier reorders columns.
+- **Automated data quality testing.** Built a Pentaho transformation that reads the warehouse data dictionary and generates a SQL test for every column, covering 121 testable columns on a customer profile table of over 2 million rows, built to run daily and report results in Tableau.
+- **Handled daily job failures.** Picked up failed loads from email alerts, worked out what went wrong and reran them. Rerunning safely means knowing each load's watermark (the marker for how far it got last time), so a rerun doesn't duplicate or skip data.
+- **Took changes through the Change Advisory Board.** Attended the board meetings and presented my changes to the other members for approval.
 - **Microsoft Fabric migration.** Took part in migration planning, including moving flat-file loads from Pentaho into Fabric.
 
 Company code stays with the company, so none of it is on here. The projects below are my own.
@@ -28,7 +30,7 @@ Company code stays with the company, so none of it is on here. The projects belo
 
 - **SQL:** PostgreSQL (CTEs, window functions, DDL, query tuning)
 - **ETL:** Pentaho Data Integration (transformations, jobs, metadata injection), SFTP file feeds
-- **Cloud and APIs:** Azure app registrations, Microsoft Graph, SharePoint REST, Postman, Microsoft Fabric
+- **Cloud and APIs:** Azure app registrations, Microsoft Graph, SharePoint REST, bearer token authentication, Postman, Microsoft Fabric
 - **Languages:** Python (pandas, NumPy, scikit-learn, TensorFlow), R, Bash
 - **Tools:** DBeaver, Tableau, Git, SLURM (job scheduling on high-performance computing clusters)
 - **Ways of working:** change control through a Change Advisory Board, service desk tickets, runbooks, data dictionaries
